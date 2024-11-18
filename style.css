@@ -290,7 +290,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: -20rem;
 }
 
  .details-container {
@@ -416,8 +416,8 @@ article .icon {
 /* Wrapper CARD */
 .wrapper {
   display: flex;
-  gap: 20px;
-  width: 1200px;
+  gap: 0;
+  width: 900px;
   overflow-x: scroll;
 }
 
@@ -436,6 +436,11 @@ article .icon {
   align-items: center;
   padding: auto 0;
   margin-top:2rem;
+}
+#experience .arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 5rem;
 }
 /* PROJECTS SECTION */
 
